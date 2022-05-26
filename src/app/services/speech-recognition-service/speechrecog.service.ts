@@ -18,7 +18,6 @@ export class SpeechrecogService {
   constructor() {
     // initialize the new webkitSpeechRecognition object
     this.speechRecogInstance = new webkitSpeechRecognition();
-    this.speechRecogInstance.interimResults = true;
     // set the language
     this.speechRecogInstance.lang = 'en-US';
   }
